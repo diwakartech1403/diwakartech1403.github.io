@@ -15,18 +15,15 @@ section{padding:110px 0;position:relative}
 h2{font-size:2rem;font-weight:800;margin-bottom:10px}
 .sub{color:var(--muted);margin-bottom:44px;max-width:620px}
 .grad{background:linear-gradient(120deg,var(--a2),var(--a1),var(--a3));-webkit-background-clip:text;background-clip:text;color:transparent}
-/* nav */
 nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(14px);background:rgba(7,8,20,.6);border-bottom:1px solid var(--border)}
 nav .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
 .logo{font-weight:800;font-size:1.1rem}
 nav ul{display:flex;gap:22px;list-style:none}
 nav ul a{color:var(--muted);font-size:.92rem;transition:color .2s}
 nav ul a:hover{color:var(--text)}
-/* buttons */
 .btn{display:inline-block;padding:12px 22px;border-radius:12px;font-weight:600;font-size:.95rem;border:1px solid var(--border);background:var(--card);color:var(--text);transition:transform .2s,box-shadow .2s;cursor:pointer}
 .btn.primary{background:linear-gradient(120deg,var(--a1),var(--a2));border:none;color:#fff;box-shadow:0 10px 30px -10px var(--a1)}
 .btn:hover{transform:translateY(-2px)}
-/* hero */
 #hero{min-height:100vh;display:flex;align-items:center;padding-top:64px;overflow:hidden}
 #net{position:absolute;inset:0;width:100%;height:100%;z-index:0}
 .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
@@ -42,20 +39,17 @@ h1{font-size:clamp(2.4rem,5vw,4.1rem);line-height:1.08;font-weight:800}
 .stat span{color:var(--muted);font-size:.85rem}
 .photo{position:relative;width:100%;max-width:340px;aspect-ratio:3/4;margin-left:auto;border-radius:26px;border:1px solid var(--border);overflow:hidden;background:linear-gradient(160deg,#1b1f4a,#0a0c1f);box-shadow:0 30px 80px -20px rgba(124,92,255,.55)}
 .photo img{width:100%;height:100%;object-fit:cover}
-.photo .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:5rem;font-weight:800;color:var(--a2)}
-.float{position:absolute;background:rgba(10,12,30,.8);border:1px solid var(--border);border-radius:14px;padding:10px 14px;font-size:.85rem;backdrop-filter:blur(8px);animation:bob 5s ease-in-out infinite}
+.ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:4rem;font-weight:800;color:var(--a2);text-align:center;padding:12px}
+.float{position:absolute;background:rgba(10,12,30,.8);border:1px solid var(--border);border-radius:14px;padding:10px 14px;font-size:.85rem;backdrop-filter:blur(8px);animation:bob 5s ease-in-out infinite;z-index:2}
 .float.f1{left:-30px;bottom:60px}.float.f2{right:-24px;top:50px;animation-delay:2s}
 @keyframes bob{50%{transform:translateY(-10px)}}
-/* generic cards */
 .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s}
 .reveal.show{opacity:1;transform:none}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{padding:5px 12px;border-radius:999px;border:1px solid var(--border);background:var(--card);font-size:.82rem;color:var(--muted)}
-/* about */
 .about-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start}
 .about-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px}
 .about-card h3{margin-bottom:10px;font-size:1.05rem}
-/* skills */
 .skill-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
 .sgroup{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:24px}
 .sgroup h3{margin-bottom:16px;font-size:1rem;color:var(--a2)}
@@ -64,7 +58,6 @@ h1{font-size:clamp(2.4rem,5vw,4.1rem);line-height:1.08;font-weight:800}
 .skill-top span:last-child{color:var(--muted)}
 .bar{height:7px;background:rgba(255,255,255,.07);border-radius:99px;overflow:hidden}
 .bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--a1),var(--a2));transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
-/* timeline */
 .timeline{border-left:2px solid var(--border);padding-left:30px;margin-left:8px}
 .tl{position:relative;margin-bottom:34px;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px}
 .tl::before{content:"";position:absolute;left:-40px;top:28px;width:14px;height:14px;border-radius:50%;background:var(--a2);box-shadow:0 0 16px var(--a2)}
@@ -73,28 +66,23 @@ h1{font-size:clamp(2.4rem,5vw,4.1rem);line-height:1.08;font-weight:800}
 .tl .per{color:var(--muted);font-size:.88rem;margin-bottom:12px}
 .tl ul{padding-left:18px;color:var(--muted)}
 .tl li{margin-bottom:6px}
-/* projects */
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
 .pcard{background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;cursor:pointer;transition:transform .3s,border-color .3s,box-shadow .3s}
 .pcard:hover{transform:translateY(-6px);border-color:rgba(124,92,255,.55);box-shadow:0 20px 50px -20px rgba(124,92,255,.5)}
 .pimg{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,#1e2358,#0b0d24);overflow:hidden}
 .pimg img{width:100%;height:100%;object-fit:cover}
-.pimg .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.3rem;color:var(--a2);text-align:center;padding:12px}
 .pbody{padding:20px}
 .pbody h3{font-size:1.1rem;margin-bottom:6px}
 .pbody p{color:var(--muted);font-size:.92rem;margin-bottom:14px}
-/* modal */
 dialog{background:#0d0f22;color:var(--text);border:1px solid var(--border);border-radius:20px;width:min(680px,92%);padding:0}
-dialog::backdrop{background:rgba(0,0,0,.7);backdrop-filter:blur(4px)}
+dialog::backdrop{background:rgba(0,0,0,.7)}
 .dlg-img{aspect-ratio:16/9;background:linear-gradient(135deg,#1e2358,#0b0d24);position:relative;overflow:hidden}
 .dlg-img img{width:100%;height:100%;object-fit:cover}
-.dlg-img .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.6rem;color:var(--a2)}
 .dlg-body{padding:26px}
 .dlg-body h3{font-size:1.4rem;margin-bottom:10px}
 .dlg-body ul{padding-left:20px;color:var(--muted);margin:14px 0}
 .dlg-body li{margin-bottom:6px}
 .close{float:right;background:none;border:none;color:var(--text);font-size:1.6rem;cursor:pointer;margin:-4px 0 0 10px}
-/* ai chat */
 .chat-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
 .chat{background:var(--card);border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(34,211,238,.35)}
 .chat-head{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem}
@@ -105,13 +93,12 @@ dialog::backdrop{background:rgba(0,0,0,.7);backdrop-filter:blur(4px)}
 .msg.me{margin-left:auto;background:linear-gradient(120deg,var(--a1),var(--a2));color:#fff}
 .chat form{display:flex;border-top:1px solid var(--border)}
 .chat input{flex:1;background:transparent;border:none;color:var(--text);padding:14px 16px;font-size:.95rem;outline:none}
-.chat button{background:linear-gradient(120deg,var(--a1),var(--a2));border:none;color:#fff;padding:0 20px;font-weight:600;cursor:pointer}
+.chat button[type=submit]{background:linear-gradient(120deg,var(--a1),var(--a2));border:none;color:#fff;padding:0 20px;font-weight:600;cursor:pointer}
 .ask-copy h2{margin-bottom:14px}
 .ask-copy p{color:var(--muted);margin-bottom:18px}
-/* contact */
 .contact-box{text-align:center;background:linear-gradient(135deg,rgba(124,92,255,.15),rgba(34,211,238,.08));border:1px solid var(--border);border-radius:26px;padding:70px 30px}
 .contact-box p{color:var(--muted);margin:12px auto 30px;max-width:520px}
-.links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:24px}
+.socials{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:24px}
 footer{text-align:center;color:var(--muted);padding:34px 0;border-top:1px solid var(--border);font-size:.88rem}
 @media (max-width:860px){
   nav ul{display:none}
@@ -151,8 +138,8 @@ footer{text-align:center;color:var(--muted);padding:34px 0;border-top:1px solid 
       <div class="stats" id="stats"></div>
     </div>
     <div class="photo" id="photo">
-      <div class="float f1">🤖 LLM Agents</div>
-      <div class="float f2">⚡ FastAPI</div>
+      <div class="float f1">LLM Agents</div>
+      <div class="float f2">FastAPI</div>
     </div>
   </div>
 </section>
@@ -198,7 +185,7 @@ footer{text-align:center;color:var(--muted);padding:34px 0;border-top:1px solid 
     <p id="mDesc" style="color:var(--muted)"></p>
     <ul id="mList"></ul>
     <div class="chips" id="mTech"></div>
-    <p style="margin-top:20px"><a class="btn primary" id="mLink" target="_blank" rel="noopener">Visit project →</a></p>
+    <p style="margin-top:20px"><a class="btn primary" id="mLink" target="_blank" rel="noopener">Visit project</a></p>
   </div>
 </dialog>
 
@@ -219,11 +206,11 @@ footer{text-align:center;color:var(--muted);padding:34px 0;border-top:1px solid 
 </div></section>
 
 <section id="contact"><div class="wrap">
-  <div class="contact-box reveal">
+  <div class="contact-box reveal" id="contactBox">
     <h2>Let's <span class="grad">Work Together</span></h2>
     <p id="contactText"></p>
     <a class="btn primary" id="mailBtn">Email me</a>
-    <div class="links" id="socials"></div>
+    <div class="socials" id="socials"></div>
   </div>
 </div></section>
 
@@ -240,67 +227,84 @@ function el(tag, text, cls) {
   return e;
 }
 
-// Image that falls back to a styled placeholder if the file is missing
+// Shows an image, or a styled text placeholder if the file is missing
 function media(src, alt, boxClass) {
   const box = el("div", null, boxClass);
-  if (!src) { box.appendChild(el("span", alt, "ph")); return box; }
+  box.appendChild(el("span", alt, "ph"));
+  if (!src) return box;
   const img = new Image();
   img.alt = alt;
-  img.onload = () => box.appendChild(img);
-  img.onerror = () => box.appendChild(el("span", alt, "ph"));
+  img.onload = () => { box.innerHTML = ""; box.appendChild(img); };
   img.src = src;
   return box;
 }
 
+// Runs one part of the page; if it fails, the rest still renders
+function safe(fn) {
+  try { fn(); } catch (e) { console.error(e); }
+}
+
 fetch("portfolio.json")
   .then(r => r.json())
-  .then(data => { D = data; render(data); setupObservers(); })
-  .catch(e => { document.body.insertAdjacentHTML("afterbegin", "<p style='color:red;padding:20px'>Could not load portfolio.json</p>"); console.error(e); });
+  .then(data => {
+    D = data;
+    safe(renderHero);
+    safe(renderAbout);
+    safe(renderSkills);
+    safe(renderExperience);
+    safe(renderProjects);
+    safe(renderChat);
+    safe(renderContact);
+    safe(() => { $("#footer").textContent = "© " + new Date().getFullYear() + " " + D.name; });
+    safe(startNetwork);
+    setupObservers();
+  })
+  .catch(e => {
+    document.body.insertAdjacentHTML("afterbegin",
+      "<p style='color:#f87171;padding:20px'>Could not load portfolio.json. Check the file name and that it is in the same folder.</p>");
+    console.error(e);
+  });
 
-function render(d) {
+function renderHero() {
+  const d = D;
   document.title = d.name + " | Portfolio";
   $("#logo").textContent = d.initials || d.name;
-  $("#eyebrow").textContent = "✦ " + d.availability;
+  $("#eyebrow").textContent = d.availability;
   $("#name").textContent = d.name;
   $("#tagline").textContent = d.tagline;
-  $("#aboutText").textContent = d.about;
   $("#resumeBtn").href = d.links.resume;
-
-  // Typing effect
   typer(d.titles);
-
-  // Stats
   d.stats.forEach(s => {
     const b = el("div", null, "stat");
     b.appendChild(el("b", s.value));
     b.appendChild(el("span", s.label));
     $("#stats").appendChild(b);
   });
-
-  // Photo
   const photo = $("#photo");
-  const pimg = media(d.photo, d.initials || "AI", "ph-wrap");
-  pimg.style.cssText = "position:absolute;inset:0";
-  photo.prepend(pimg);
+  const pbox = media(d.photo, d.initials || "AI", "");
+  pbox.style.cssText = "position:absolute;inset:0";
+  photo.prepend(pbox);
+}
 
-  // Focus chips
+function renderAbout() {
+  const d = D;
+  $("#aboutText").textContent = d.about;
   d.focus.forEach(f => $("#focus").appendChild(el("span", f, "chip")));
-
-  // Education
   d.education.forEach(e => {
-    const box = el("div", null, "");
+    const box = el("div");
     box.style.marginBottom = "14px";
     box.appendChild(el("strong", e.degree));
     box.appendChild(el("div", e.school, "muted"));
     box.appendChild(el("div", e.period, "muted"));
     $("#education").appendChild(box);
   });
+}
 
-  // Skills with level bars
-  for (const group in d.skills) {
+function renderSkills() {
+  for (const group in D.skills) {
     const g = el("div", null, "sgroup reveal");
     g.appendChild(el("h3", group));
-    d.skills[group].forEach(s => {
+    D.skills[group].forEach(s => {
       const row = el("div", null, "skill");
       const top = el("div", null, "skill-top");
       top.appendChild(el("span", s.name));
@@ -309,14 +313,16 @@ function render(d) {
       const fill = el("i");
       fill.dataset.level = s.level;
       bar.appendChild(fill);
-      row.appendChild(top); row.appendChild(bar);
+      row.appendChild(top);
+      row.appendChild(bar);
       g.appendChild(row);
     });
     $("#skillGroups").appendChild(g);
   }
+}
 
-  // Timeline
-  d.experience.forEach(job => {
+function renderExperience() {
+  D.experience.forEach(job => {
     const item = el("div", null, "tl reveal");
     item.appendChild(el("h3", job.role));
     item.appendChild(el("div", job.company, "co"));
@@ -326,9 +332,10 @@ function render(d) {
     item.appendChild(ul);
     $("#timeline").appendChild(item);
   });
+}
 
-  // Projects
-  d.projects.forEach(p => {
+function renderProjects() {
+  D.projects.forEach(p => {
     const card = el("div", null, "pcard reveal");
     card.appendChild(media(p.image, p.name, "pimg"));
     const body = el("div", null, "pbody");
@@ -341,32 +348,34 @@ function render(d) {
     card.addEventListener("click", () => openModal(p));
     $("#projectGrid").appendChild(card);
   });
+}
 
-  // Suggested questions for AI chat
-  d.suggestions.forEach(s => {
+function renderChat() {
+  D.suggestions.forEach(s => {
     const b = el("button", s, "chip");
     b.style.cursor = "pointer";
     b.addEventListener("click", () => ask(s));
     $("#suggest").appendChild(b);
   });
-  addBot("Hi! I'm the portfolio assistant. Ask me about " + d.name + "'s projects, skills or experience.");
+  addBot("Hi! I'm the portfolio assistant. Ask me about " + D.name + "'s projects, skills or experience.");
+}
 
-  // Contact
+function renderContact() {
+  const d = D;
   $("#contactText").textContent = d.contactText;
   $("#mailBtn").href = "mailto:" + d.email;
-  if (d.phone) $("#contact .contact-box").appendChild(el("p", "📞 " + d.phone));
+  if (d.phone) $("#contactBox").appendChild(el("p", "Phone: " + d.phone));
   [["LinkedIn", d.links.linkedin], ["GitHub", d.links.github]].forEach(([label, url]) => {
     if (!url) return;
     const a = el("a", label, "btn");
-    a.href = url; a.target = "_blank"; a.rel = "noopener";
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
     $("#socials").appendChild(a);
   });
-  $("#footer").textContent = "© " + new Date().getFullYear() + " " + d.name + " · Built with HTML, CSS & JavaScript";
-
-  startNetwork();
 }
 
-// Typing effect
+// Typing effect in the hero
 function typer(words) {
   let w = 0, c = 0, del = false;
   const node = $("#typing");
@@ -380,7 +389,7 @@ function typer(words) {
   })();
 }
 
-// Scroll reveal + skill bars
+// Scroll reveal and skill bar animation
 function setupObservers() {
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => {
@@ -389,35 +398,38 @@ function setupObservers() {
       e.target.querySelectorAll(".bar i").forEach(f => f.style.width = f.dataset.level + "%");
       io.unobserve(e.target);
     });
-  }, { threshold: 0.15 });
+  }, { threshold: 0.1 });
   document.querySelectorAll(".reveal").forEach(n => io.observe(n));
 }
 
-// Project modal
+// Project popup
 function openModal(p) {
-  $("#modalImg").innerHTML = "";
-  $("#modalImg").appendChild(media(p.image, p.name, ""));
+  const mi = $("#modalImg");
+  mi.innerHTML = "";
+  mi.appendChild(media(p.image, p.name, ""));
   $("#mTitle").textContent = p.name;
   $("#mDesc").textContent = p.description;
-  const ul = $("#mList"); ul.innerHTML = "";
-  p.highlights.forEach(h => ul.appendChild(el("li", h)));
-  const t = $("#mTech"); t.innerHTML = "";
+  const ul = $("#mList");
+  ul.innerHTML = "";
+  (p.highlights || []).forEach(h => ul.appendChild(el("li", h)));
+  const t = $("#mTech");
+  t.innerHTML = "";
   p.tech.forEach(x => t.appendChild(el("span", x, "chip")));
   const link = $("#mLink");
   if (p.link) { link.href = p.link; link.style.display = "inline-block"; }
-  else link.style.display = "none";
+  else { link.style.display = "none"; }
   $("#modal").showModal();
 }
 $("#closeModal").onclick = () => $("#modal").close();
 $("#modal").addEventListener("click", e => { if (e.target.id === "modal") $("#modal").close(); });
 
-// AI chat (matches keywords in your JSON, no API needed)
+// Chat assistant: answers by matching keywords in portfolio.json
 function addBot(t) { const m = el("div", t, "msg bot"); $("#msgs").appendChild(m); $("#msgs").scrollTop = 1e6; }
 function addMe(t) { const m = el("div", t, "msg me"); $("#msgs").appendChild(m); $("#msgs").scrollTop = 1e6; }
 function answer(q) {
   q = q.toLowerCase();
   let best = null, score = 0;
-  D.faq.forEach(f => {
+  (D.faq || []).forEach(f => {
     const s = f.keywords.filter(k => q.includes(k)).length;
     if (s > score) { score = s; best = f; }
   });
@@ -435,13 +447,14 @@ $("#chatForm").addEventListener("submit", e => {
   ask(v);
 });
 
-// Animated neural network background
+// Animated neural network background in the hero
 function startNetwork() {
   const cv = $("#net"), cx = cv.getContext("2d");
   let pts = [];
   function size() {
     const dpr = window.devicePixelRatio || 1;
-    cv.width = cv.offsetWidth * dpr; cv.height = cv.offsetHeight * dpr;
+    cv.width = cv.offsetWidth * dpr;
+    cv.height = cv.offsetHeight * dpr;
     cx.setTransform(dpr, 0, 0, dpr, 0, 0);
     const n = Math.min(90, Math.floor(cv.offsetWidth * cv.offsetHeight / 14000));
     pts = Array.from({ length: n }, () => ({
@@ -469,7 +482,8 @@ function startNetwork() {
     pts.forEach(p => { cx.beginPath(); cx.arc(p.x, p.y, 1.8, 0, 7); cx.fill(); });
     requestAnimationFrame(frame);
   }
-  size(); frame();
+  size();
+  frame();
   window.addEventListener("resize", size);
 }
 </script>
