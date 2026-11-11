@@ -1,22 +1,51 @@
 {
   "name": "Diwakar V",
-  "title": "AI Backend Developer | Java | Spring Boot | Python | FastAPI | LLM Applications",
-  "tagline": "Building scalable backend services, REST APIs and AI-powered applications with Python, FastAPI, Java and Spring Boot.",
-  "about": "AI Backend Developer with 2.5 years of software development experience building backend services, REST APIs and AI-powered applications. I have built an AI chatbot and AI agent using GPT-4o and an MCP server for lead, client and policy scoring, and I develop custom AI agents, AI workflows and conversational features for ERP, CRM and project management applications. I'm strong in object-oriented programming, data structures and algorithms, API integration, RBAC, SQL query optimization, and CI/CD with GitHub Actions.",
+  "initials": "DV",
+  "availability": "Open to AI Backend Developer roles",
+  "titles": [
+    "AI Backend Developer",
+    "Python & FastAPI Engineer",
+    "Building AI Agents & LLM Apps",
+    "Java & Spring Boot Developer"
+  ],
+  "tagline": "I build scalable backend services, REST APIs and AI-powered applications, from LLM chatbots and agent workflows to the CRM and ERP systems they run on.",
+  "about": "AI Backend Developer with 2.5 years of software development experience. I have built an AI chatbot and agent using GPT-4o and an MCP server for lead, client and policy scoring, and I develop custom AI agents and conversational features for ERP, CRM and project management applications. I'm strong in OOP, data structures and algorithms, API integration, RBAC, SQL optimization and CI/CD.",
+  "photo": "images/profile.jpg",
+  "email": "diwakarvwork@gmail.com",
+  "phone": "+91 8072348616",
   "location": "Chennai, India",
+  "contactText": "Have an AI backend role, a project idea or a question? Send me an email and I'll get back to you.",
   "links": {
-    "github": "",
     "linkedin": "https://linkedin.com/in/diwakar-venugopal-152680220",
-    "resume": "resume.pdf",
-    "website": "https://apragya.ai"
+    "github": "",
+    "resume": "resume.pdf"
   },
+  "stats": [
+    { "value": "2.5+", "label": "Years experience" },
+    { "value": "5", "label": "Projects shipped" },
+    { "value": "GPT-4o", "label": "LLM integrations" },
+    { "value": "3", "label": "AI systems built" }
+  ],
+  "focus": ["AI Agents", "LLM Applications", "REST APIs", "FastAPI", "Spring Boot", "MCP", "RAG", "CI/CD"],
   "skills": {
-    "Languages": ["Java", "Core Java", "Python", "JavaScript", "PHP", "SQL", "HTML5", "CSS3"],
-    "Backend & Frameworks": ["Spring Boot", "Spring MVC", "Spring Data JPA", "Hibernate", "FastAPI", "Laravel", "RESTful APIs", "Microservices-style services", "Maven"],
-    "AI": ["Generative AI", "LLMs", "OpenAI GPT-4o", "AI Agents", "AI Chatbots", "Conversational AI", "Prompt Engineering", "AI Workflows", "Model Context Protocol (MCP)"],
-    "Database & Security": ["MySQL", "Query Optimization", "Indexing", "Authentication", "Authorization", "RBAC", "Input Validation"],
-    "Tools & DevOps": ["Git", "GitHub", "GitHub Actions", "CI/CD", "Postman", "IntelliJ IDEA", "VS Code", "FileZilla"],
-    "Core CS": ["Data Structures", "Algorithms", "Object-Oriented Programming", "Debugging"]
+    "AI & LLMs": [
+      { "name": "LLM Applications & GPT-4o", "level": 88 },
+      { "name": "AI Agents & Workflows", "level": 85 },
+      { "name": "MCP (Model Context Protocol)", "level": 78 },
+      { "name": "Prompt Engineering", "level": 82 }
+    ],
+    "Backend": [
+      { "name": "Python & FastAPI", "level": 88 },
+      { "name": "Java & Spring Boot", "level": 75 },
+      { "name": "PHP & Laravel", "level": 85 },
+      { "name": "REST API Design", "level": 90 }
+    ],
+    "Data & DevOps": [
+      { "name": "MySQL & Query Optimization", "level": 84 },
+      { "name": "Git & GitHub", "level": 90 },
+      { "name": "GitHub Actions (CI/CD)", "level": 78 },
+      { "name": "Security (RBAC, Auth)", "level": 80 }
+    ]
   },
   "experience": [
     {
@@ -24,14 +53,13 @@
       "company": "Fronseye Tech Pvt Ltd",
       "period": "Mar 2024 – Present",
       "points": [
-        "Develop backend services and RESTful APIs with Python and FastAPI for AI and intelligent automation use cases in an AI-native enterprise application (Apragya AI).",
-        "Build AI chatbots, custom AI agents and LLM-powered features that let businesses create and configure AI agents for their workflows.",
-        "Design AI workflows that let AI agents interact with application data, APIs and business processes across ERP, CRM and project management modules.",
-        "Built an AI chatbot and AI agent for InsureCRM using GPT-4o through an MCP server, so the model selects the right tool and retrieves data from the database to answer natural-language queries.",
-        "Implemented AI-driven scoring of leads, clients and insurance policies to help agents prioritize follow-ups and renewals.",
-        "Integrated third-party APIs, including the Meta WhatsApp API for automated follow-ups, plus push notifications and REST APIs for mobile access.",
-        "Design backend applications using MVC architecture, OOP, input validation, exception handling, authentication and authorization.",
-        "Write optimized SQL queries, debug and test applications, refactor legacy code, and use Git, GitHub and GitHub Actions for version control, code reviews, CI/CD and deployments.",
+        "Develop backend services and RESTful APIs with Python and FastAPI for AI-native enterprise applications (Apragya AI).",
+        "Build AI chatbots, custom AI agents and LLM-powered features that let businesses create and configure agents for their workflows.",
+        "Design AI workflows that let agents interact with application data, APIs and business processes across ERP, CRM and project management modules.",
+        "Built an AI chatbot and agent for InsureCRM using GPT-4o via an MCP server, so the model selects the right tool and retrieves data to answer natural-language queries.",
+        "Implemented AI-driven scoring of leads, clients and policies to help agents prioritize follow-ups and renewals.",
+        "Integrated third-party APIs including the Meta WhatsApp API, push notifications and mobile REST APIs.",
+        "Use Git, GitHub and GitHub Actions for version control, code reviews, CI/CD and deployments.",
         "Work in Agile/Scrum sprints with frontend developers, AI engineers, QA and product stakeholders."
       ]
     }
@@ -39,40 +67,103 @@
   "projects": [
     {
       "name": "Apragya AI",
-      "description": "AI agent builder and AI-powered ERP, CRM and project management platform, where businesses create and configure AI agents for their workflows.",
+      "image": "images/apragya.jpg",
+      "description": "AI agent builder and AI-powered ERP, CRM and project management platform where businesses create and configure their own AI agents.",
+      "highlights": [
+        "Backend services and RESTful APIs in Python and FastAPI",
+        "Custom AI agents and LLM-powered chatbot features",
+        "AI workflows that connect agents to ERP, CRM and PM modules"
+      ],
       "tech": ["Python", "FastAPI", "LLMs", "AI Agents"],
       "link": "https://apragya.ai"
     },
     {
       "name": "InsureCRM",
-      "description": "Insurance CRM and agent app with an AI chatbot and agent (GPT-4o via MCP) that scores leads, clients and policies, plus policy management, renewal reminders, support ticketing and performance dashboards.",
+      "image": "images/insurecrm.jpg",
+      "description": "Insurance CRM with an AI chatbot and agent that scores leads, clients and policies and answers natural-language questions from the database.",
+      "highlights": [
+        "GPT-4o agent using MCP for tool selection and data retrieval",
+        "AI scoring for leads, clients and policies to prioritize renewals",
+        "Policy management, renewal reminders, ticketing and dashboards",
+        "WhatsApp API automation and mobile REST APIs"
+      ],
       "tech": ["Python", "FastAPI", "GPT-4o", "MCP", "Laravel", "MySQL"],
       "link": "https://insurecrm.in"
     },
     {
       "name": "RealTeye",
-      "description": "Real estate management platform for plots, apartments and villas, with a marketer hierarchy, lead-to-client conversion, booking and payment tracking, and role-based access control.",
+      "image": "images/realteye.jpg",
+      "description": "Real estate management platform for plots, apartments and villas with marketer hierarchies and booking workflows.",
+      "highlights": [
+        "Marketer hierarchy with role-based access control",
+        "Lead-to-client conversion, booking and payment tracking",
+        "Responsive UI and mobile-ready REST APIs"
+      ],
       "tech": ["Laravel", "Bootstrap", "MySQL", "REST APIs"],
       "link": ""
     },
     {
       "name": "Data Validation Automation Tool",
-      "description": "Automation tool that validates and compares images and PDF files against Excel datasets, with per-user time tracking and process, skip and complete workflows.",
+      "image": "images/validation.jpg",
+      "description": "Automation tool that validates and compares images and PDFs against Excel datasets.",
+      "highlights": [
+        "Compares image and PDF files against Excel datasets",
+        "Per-user time tracking with process, skip and complete workflows"
+      ],
       "tech": ["Core PHP", "MySQL"],
       "link": ""
     },
     {
       "name": "Task Manager REST API",
-      "description": "RESTful API with CRUD endpoints, Controller, Service and Repository layers, DTOs, request validation and global exception handling with @RestControllerAdvice.",
-      "tech": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Maven"],
+      "image": "images/taskmanager.jpg",
+      "description": "RESTful API with CRUD endpoints, layered architecture and global exception handling.",
+      "highlights": [
+        "Controller, Service and Repository layers",
+        "Spring Data JPA and Hibernate with MySQL persistence",
+        "DTOs, request validation and @RestControllerAdvice"
+      ],
+      "tech": ["Java", "Spring Boot", "JPA", "MySQL", "Maven"],
       "link": ""
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Engineering (B.E.) in Computer Science and Engineering, CGPA 8.7/10",
+      "degree": "B.E. Computer Science & Engineering (CGPA 8.7/10)",
       "school": "Panimalar Engineering College, Chennai",
       "period": "2019 – 2023"
     }
-  ]
+  ],
+  "suggestions": [
+    "What AI projects have you built?",
+    "Tell me about InsureCRM",
+    "What is your tech stack?",
+    "How can I contact you?"
+  ],
+  "faq": [
+    {
+      "keywords": ["ai", "project", "built", "agent", "chatbot"],
+      "answer": "I've built Apragya AI (AI agent builder with ERP, CRM and project management) and an AI chatbot and agent for InsureCRM that uses GPT-4o through an MCP server to score leads, clients and policies."
+    },
+    {
+      "keywords": ["insure", "crm", "insurance"],
+      "answer": "InsureCRM is an insurance CRM with an AI agent. It uses GPT-4o via MCP to choose the right tool and query the database, and it scores leads, clients and policies so agents know who to follow up with."
+    },
+    {
+      "keywords": ["stack", "tech", "language", "skill", "know"],
+      "answer": "My core stack is Python and FastAPI for AI and backend work, Java and Spring Boot for REST APIs, PHP and Laravel for web apps, and MySQL, with Git, GitHub Actions and CI/CD on top."
+    },
+    {
+      "keywords": ["experience", "work", "job", "years", "company"],
+      "answer": "I have about 2.5 years of experience as an Associate Software Developer at Fronseye Tech Pvt Ltd, since March 2024, building AI-native backend systems and business applications."
+    },
+    {
+      "keywords": ["contact", "email", "reach", "hire", "phone"],
+      "answer": "You can email me at diwakarvwork@gmail.com or message me on LinkedIn using the links at the bottom of this page."
+    },
+    {
+      "keywords": ["education", "college", "degree", "study"],
+      "answer": "I completed a B.E. in Computer Science and Engineering from Panimalar Engineering College, Chennai, from 2019 to 2023, with a CGPA of 8.7 out of 10."
+    }
+  ],
+  "chatFallback": "I can answer questions about my AI projects, tech stack, experience, education or how to contact me. Try one of the suggestions above."
 }
