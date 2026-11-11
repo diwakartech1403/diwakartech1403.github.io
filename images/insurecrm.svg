@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0d24"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="80" y="130" width="200" height="240" rx="18" fill="#ffffff" fill-opacity=".05" stroke="#7c5cff" stroke-opacity=".4"/>
+  <text x="105" y="170" font-family="Arial, sans-serif" font-size="18" fill="#e7e9ff">Lead scores</text>
+  <rect x="105" y="200" width="150" height="16" rx="8" fill="#22d3ee"/>
+  <rect x="105" y="232" width="115" height="16" rx="8" fill="#7c5cff"/>
+  <rect x="105" y="264" width="135" height="16" rx="8" fill="#f472b6"/>
+  <rect x="105" y="296" width="90" height="16" rx="8" fill="#22d3ee" opacity=".6"/>
+  <rect x="105" y="328" width="122" height="16" rx="8" fill="#7c5cff" opacity=".6"/>
+  <path d="M400 110 L490 140 L490 245 Q490 325 400 375 Q310 325 310 245 L310 140 Z" fill="url(#g)"/>
+  <path d="M360 245 L390 275 L445 212" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="540" y="150" width="190" height="60" rx="14" fill="#7c5cff" opacity=".55"/>
+  <rect x="540" y="240" width="160" height="50" rx="14" fill="#22d3ee" opacity=".3"/>
+  <rect x="540" y="320" width="190" height="55" rx="14" fill="#7c5cff" opacity=".55"/>
+  <circle cx="565" cy="180" r="8" fill="#ffffff"/><circle cx="590" cy="180" r="8" fill="#ffffff" opacity=".7"/>
+  <rect x="740" y="0" width="0" height="0"/>
+</svg>
