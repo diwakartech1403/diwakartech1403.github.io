@@ -66,7 +66,7 @@
   "projects": [
     {
       "name": "Apragya AI",
-      "image": "images/apragya.jpg",
+      "image": "images/apragya.svg",
       "description": "AI agent builder and AI-powered ERP, CRM and project management platform where businesses create and configure their own AI agents.",
       "highlights": [
         "Backend services and RESTful APIs in Python and FastAPI",
@@ -78,7 +78,7 @@
     },
     {
       "name": "InsureCRM",
-      "image": "images/insurecrm.jpg",
+      "image": "images/insurecrm.svg",
       "description": "Insurance CRM with an AI chatbot and agent that scores leads, clients and policies and answers natural-language questions from the database.",
       "highlights": [
         "GPT-4o agent using MCP for tool selection and data retrieval",
@@ -91,7 +91,7 @@
     },
     {
       "name": "RealTeye",
-      "image": "images/realteye.jpg",
+      "image": "images/realteye.svg",
       "description": "Real estate management platform for plots, apartments and villas with marketer hierarchies and booking workflows.",
       "highlights": [
         "Marketer hierarchy with role-based access control",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Data Validation Automation Tool",
-      "image": "images/validation.jpg",
+      "image": "images/validation.svg",
       "description": "Automation tool that validates and compares images and PDFs against Excel datasets.",
       "highlights": [
         "Compares image and PDF files against Excel datasets",
@@ -114,7 +114,7 @@
     },
     {
       "name": "Task Manager REST API",
-      "image": "images/taskmanager.jpg",
+      "image": "images/taskmanager.svg",
       "description": "RESTful API with CRUD endpoints, layered architecture and global exception handling.",
       "highlights": [
         "Controller, Service and Repository layers",
