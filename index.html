@@ -161,7 +161,7 @@ footer{text-align:center;color:var(--muted);padding:34px 0;border-top:1px solid 
   <div class="about-grid">
     <div class="reveal">
       <h2>About <span class="grad">Me</span></h2>
-      <p class="sub" style="margin-bottom:0" id="about"></p>
+      <p class="sub" style="margin-bottom:0" id="aboutText"></p>
     </div>
     <div class="about-card reveal">
       <h3>Focus areas</h3>
@@ -263,7 +263,7 @@ function render(d) {
   $("#eyebrow").textContent = "✦ " + d.availability;
   $("#name").textContent = d.name;
   $("#tagline").textContent = d.tagline;
-  $("#about").textContent = d.about;
+  $("#aboutText").textContent = d.about;
   $("#resumeBtn").href = d.links.resume;
 
   // Typing effect
