@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d24"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="600" cy="375" r="360" fill="url(#glow)"/>
+
+  <!-- Neural network layers -->
+  <g stroke="#7c5cff" stroke-opacity=".35" stroke-width="2" fill="none">
+    <line x1="160" y1="150" x2="420" y2="110"/><line x1="160" y1="150" x2="420" y2="260"/>
+    <line x1="160" y1="150" x2="420" y2="410"/><line x1="160" y1="150" x2="420" y2="560"/>
+    <line x1="160" y1="380" x2="420" y2="110"/><line x1="160" y1="380" x2="420" y2="260"/>
+    <line x1="160" y1="380" x2="420" y2="410"/><line x1="160" y1="380" x2="420" y2="560"/>
+    <line x1="160" y1="600" x2="420" y2="110"/><line x1="160" y1="600" x2="420" y2="260"/>
+    <line x1="160" y1="600" x2="420" y2="410"/><line x1="160" y1="600" x2="420" y2="560"/>
+    <line x1="780" y1="110" x2="1040" y2="200"/><line x1="780" y1="260" x2="1040" y2="200"/>
+    <line x1="780" y1="410" x2="1040" y2="200"/><line x1="780" y1="560" x2="1040" y2="200"/>
+    <line x1="780" y1="110" x2="1040" y2="540"/><line x1="780" y1="260" x2="1040" y2="540"/>
+    <line x1="780" y1="410" x2="1040" y2="540"/><line x1="780" y1="560" x2="1040" y2="540"/>
+    <line x1="420" y1="110" x2="780" y2="260"/><line x1="420" y1="260" x2="780" y2="110"/>
+    <line x1="420" y1="410" x2="780" y2="560"/><line x1="420" y1="560" x2="780" y2="410"/>
+  </g>
+
+  <!-- Input and output nodes -->
+  <g fill="#22d3ee">
+    <circle cx="160" cy="150" r="10"/><circle cx="160" cy="380" r="10"/><circle cx="160" cy="600" r="10"/>
+    <circle cx="420" cy="110" r="10"/><circle cx="420" cy="260" r="10"/><circle cx="420" cy="410" r="10"/><circle cx="420" cy="560" r="10"/>
+    <circle cx="780" cy="110" r="10"/><circle cx="780" cy="260" r="10"/><circle cx="780" cy="410" r="10"/><circle cx="780" cy="560" r="10"/>
+    <circle cx="1040" cy="200" r="12" fill="#f472b6"/><circle cx="1040" cy="540" r="12" fill="#f472b6"/>
+  </g>
+
+  <!-- Central AI chip -->
+  <rect x="500" y="275" width="200" height="200" rx="26" fill="url(#chip)" opacity=".95"/>
+  <rect x="520" y="295" width="160" height="160" rx="18" fill="#0b0d24"/>
+  <text x="600" y="385" font-family="Arial, sans-serif" font-size="58" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">AI</text>
+  <g stroke="#22d3ee" stroke-width="5" stroke-linecap="round">
+    <line x1="530" y1="262" x2="530" y2="275"/><line x1="600" y1="262" x2="600" y2="275"/><line x1="670" y1="262" x2="670" y2="275"/>
+    <line x1="530" y1="475" x2="530" y2="488"/><line x1="600" y1="475" x2="600" y2="488"/><line x1="670" y1="475" x2="670" y2="488"/>
+    <line x1="487" y1="320" x2="500" y2="320"/><line x1="487" y1="375" x2="500" y2="375"/><line x1="487" y1="430" x2="500" y2="430"/>
+    <line x1="700" y1="320" x2="713" y2="320"/><line x1="700" y1="375" x2="713" y2="375"/><line x1="700" y1="430" x2="713" y2="430"/>
+  </g>
+
+  <!-- Floating labels -->
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="70" y="50" width="200" height="50" rx="14" fill="#151840" stroke="#7c5cff"/>
+    <text x="170" y="75" fill="#e7e9ff" text-anchor="middle" dominant-baseline="middle">LLM Agents</text>
+    <rect x="900" y="620" width="200" height="50" rx="14" fill="#151840" stroke="#22d3ee"/>
+    <text x="1000" y="645" fill="#e7e9ff" text-anchor="middle" dominant-baseline="middle">FastAPI + GPT-4o</text>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#f472b6"><circle cx="90" cy="680" r="5"/><circle cx="1120" cy="90" r="5"/><circle cx="330" cy="40" r="4"/></g>
+</svg>
