@@ -1,0 +1,80 @@
+{
+  "name": "Diwakar V",
+  "title": "AI Backend Developer | Java | Spring Boot | Python | FastAPI | LLM Applications",
+  "tagline": "Building scalable backend services, REST APIs and AI-powered applications with Python, FastAPI, Java and Spring Boot.",
+  "about": "AI Backend Developer with 2.5 years of software development experience building backend services, REST APIs and AI-powered applications. I have built an AI chatbot and AI agent using GPT-4o and an MCP server for lead, client and policy scoring, and I develop custom AI agents, AI workflows and conversational features for ERP, CRM and project management applications. I'm strong in object-oriented programming, data structures and algorithms, API integration, RBAC, SQL query optimization, and CI/CD with GitHub Actions.",
+  "email": "diwakarvwork@gmail.com",
+  "phone": "+91 8072348616",
+  "location": "Chennai, India",
+  "links": {
+    "github": "",
+    "linkedin": "https://linkedin.com/in/diwakar-venugopal-152680220",
+    "resume": "resume.pdf",
+    "website": "https://apragya.ai"
+  },
+  "skills": {
+    "Languages": ["Java", "Core Java", "Python", "JavaScript", "PHP", "SQL", "HTML5", "CSS3"],
+    "Backend & Frameworks": ["Spring Boot", "Spring MVC", "Spring Data JPA", "Hibernate", "FastAPI", "Laravel", "RESTful APIs", "Microservices-style services", "Maven"],
+    "AI": ["Generative AI", "LLMs", "OpenAI GPT-4o", "AI Agents", "AI Chatbots", "Conversational AI", "Prompt Engineering", "AI Workflows", "Model Context Protocol (MCP)"],
+    "Database & Security": ["MySQL", "Query Optimization", "Indexing", "Authentication", "Authorization", "RBAC", "Input Validation"],
+    "Tools & DevOps": ["Git", "GitHub", "GitHub Actions", "CI/CD", "Postman", "IntelliJ IDEA", "VS Code", "FileZilla"],
+    "Core CS": ["Data Structures", "Algorithms", "Object-Oriented Programming", "Debugging"]
+  },
+  "experience": [
+    {
+      "role": "Associate Software Developer",
+      "company": "Fronseye Tech Pvt Ltd",
+      "period": "Mar 2024 – Present",
+      "points": [
+        "Develop backend services and RESTful APIs with Python and FastAPI for AI and intelligent automation use cases in an AI-native enterprise application (Apragya AI).",
+        "Build AI chatbots, custom AI agents and LLM-powered features that let businesses create and configure AI agents for their workflows.",
+        "Design AI workflows that let AI agents interact with application data, APIs and business processes across ERP, CRM and project management modules.",
+        "Built an AI chatbot and AI agent for InsureCRM using GPT-4o through an MCP server, so the model selects the right tool and retrieves data from the database to answer natural-language queries.",
+        "Implemented AI-driven scoring of leads, clients and insurance policies to help agents prioritize follow-ups and renewals.",
+        "Integrated third-party APIs, including the Meta WhatsApp API for automated follow-ups, plus push notifications and REST APIs for mobile access.",
+        "Design backend applications using MVC architecture, OOP, input validation, exception handling, authentication and authorization.",
+        "Write optimized SQL queries, debug and test applications, refactor legacy code, and use Git, GitHub and GitHub Actions for version control, code reviews, CI/CD and deployments.",
+        "Work in Agile/Scrum sprints with frontend developers, AI engineers, QA and product stakeholders."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Apragya AI",
+      "description": "AI agent builder and AI-powered ERP, CRM and project management platform, where businesses create and configure AI agents for their workflows.",
+      "tech": ["Python", "FastAPI", "LLMs", "AI Agents"],
+      "link": "https://apragya.ai"
+    },
+    {
+      "name": "InsureCRM",
+      "description": "Insurance CRM and agent app with an AI chatbot and agent (GPT-4o via MCP) that scores leads, clients and policies, plus policy management, renewal reminders, support ticketing and performance dashboards.",
+      "tech": ["Python", "FastAPI", "GPT-4o", "MCP", "Laravel", "MySQL"],
+      "link": "https://insurecrm.in"
+    },
+    {
+      "name": "RealTeye",
+      "description": "Real estate management platform for plots, apartments and villas, with a marketer hierarchy, lead-to-client conversion, booking and payment tracking, and role-based access control.",
+      "tech": ["Laravel", "Bootstrap", "MySQL", "REST APIs"],
+      "link": ""
+    },
+    {
+      "name": "Data Validation Automation Tool",
+      "description": "Automation tool that validates and compares images and PDF files against Excel datasets, with per-user time tracking and process, skip and complete workflows.",
+      "tech": ["Core PHP", "MySQL"],
+      "link": ""
+    },
+    {
+      "name": "Task Manager REST API",
+      "description": "RESTful API with CRUD endpoints, Controller, Service and Repository layers, DTOs, request validation and global exception handling with @RestControllerAdvice.",
+      "tech": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Maven"],
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.E.) in Computer Science and Engineering, CGPA 8.7/10",
+      "school": "Panimalar Engineering College, Chennai",
+      "period": "2019 – 2023"
+    }
+  ]
+}
